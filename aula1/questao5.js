@@ -25,14 +25,25 @@ function readdirPromise(path){
   })
 }
 
+// async function listFiles(path){
+//   try {
+//     const paths = await readdirPromise(path)
+//     for(let path of paths){
+//       if(await isFilePromise(path)){
+//         console.log(path)
+//       }
+//     }
+//   } catch (e) {
+//     console.log(e)
+//   }
+// }
+
 async function listFiles(path){
   try {
     const paths = await readdirPromise(path)
-    for(let path of paths){
-      if(await isFilePromise(path)){
-        console.log(path)
-      }
-    }
+    const statPromises = paths.filter(async path => await isFilePromise(path))
+    const stats = await Promise.all(statPromises)
+    console.log(stats)
   } catch (e) {
     console.log(e)
   }

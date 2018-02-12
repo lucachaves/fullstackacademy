@@ -1,14 +1,12 @@
-# Exercício
+# Fullstack Academy - Aula 01
 
-## Aula
+- https://www.youtube.com/watch?v=Y_mheKt7z7o
+- https://github.com/tuliofaria/fullstackacademy-1
+- https://gist.github.com/tuliofaria/5ba5b84bd84598f8b7a9cbd0063a1fa7
 
-https://aulas.fullstackacademy.com.br/home
-https://www.youtube.com/watch?v=Y_mheKt7z7o
-https://github.com/tuliofaria/fullstackacademy-1
+## Exercício
 
-## Para enviar as respostas:
-
-Preencher e-mail com o e-mail utilizado no momento de entrar na plataforma
+Para enviar as respostas: Preencher e-mail com o e-mail utilizado no momento de entrar na plataforma
 https://goo.gl/forms/eFuu2WMraTJwFkAO2
 
 ### Exercício 1
